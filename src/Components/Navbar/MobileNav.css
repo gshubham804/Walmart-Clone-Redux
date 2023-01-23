@@ -1,0 +1,13 @@
+.mobile-icon{
+    color: black;
+    font-size: 2rem;
+}
+
+.mobile-nav-main-cont{
+    background-color: #0071dc;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+}

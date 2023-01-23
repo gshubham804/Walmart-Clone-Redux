@@ -1,0 +1,27 @@
+.navbar-searchbox{
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    width: 25rem;
+    padding: 8px 16px;
+}
+
+.search-icon{
+    background-color: yellow;
+    color: black;
+    border-radius: 50%;
+    padding: 4px;
+    font-size: 1.8rem;
+    position: relative;
+    left: -38px;
+}
+
+@media screen and (max-width:480px){
+    .navbar-searchbox{
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        width: 8rem;
+        padding: 8px 16px;
+    }
+}

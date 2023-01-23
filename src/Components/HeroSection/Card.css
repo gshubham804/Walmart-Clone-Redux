@@ -1,0 +1,34 @@
+.card-main-cont{
+    border-radius: 10px;
+    height: 440px;
+    width: 380px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card-first-div{
+    padding: 10px 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 250px;
+    width: 380px;
+    padding: 0rem 1.5rem;
+}
+
+.card-img>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-metainfo-cont{
+    padding: 1rem 1.5rem;
+}
+
+.card-metainfo-cont>h5{
+    margin-top: 0.5rem;
+}

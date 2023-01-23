@@ -1,0 +1,9 @@
+.row{
+    margin: 0.2rem 2rem;
+}
+
+.herosection-sec-col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

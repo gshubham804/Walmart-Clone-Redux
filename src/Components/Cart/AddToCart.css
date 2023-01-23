@@ -1,0 +1,49 @@
+.productsWrapper {
+    padding: 2rem 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.card>img {
+    object-fit: contain;
+    height: 140px;
+}
+
+.card>h4{
+    font-size: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.add-to-cart {
+    border: none;
+    outline: none;
+    background: #764abc;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width:480px){
+    .productsWrapper {
+        padding: 2rem 0rem;
+        display: flex;
+        flex-wrap: wrap;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+}
+
