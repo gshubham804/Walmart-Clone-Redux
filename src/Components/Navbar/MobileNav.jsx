@@ -5,11 +5,14 @@ import NavSearch from "./NavSearch.jsx";
 import {AiOutlineShoppingCart} from 'react-icons/ai';
 import { Link } from "react-router-dom";
 import { useSelector } from 'react-redux';
+import Modal from "./Modal";
 
 const MobileNav = () => {
   const items =useSelector((state)=>state.cart);
   const [isOpen, setIsOpen] = useState(true);
+
   return (
+    <>
     <div className="mobile-nav-main-cont">
       {isOpen ? (
         <MdOutlineCancel
@@ -24,6 +27,10 @@ const MobileNav = () => {
       <button type="button" class="remove-text-decor nav-button navbar-cart-button btn btn-outline-light">
       <Link to="/cart"><AiOutlineShoppingCart className='nav-icon'/>Cart: {items.length}</Link></button>
     </div>
+   {
+    isOpen &&  < Modal/>
+   }
+    </>
   );
 };
 
