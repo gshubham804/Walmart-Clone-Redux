@@ -9,7 +9,7 @@ import Modal from "./Modal";
 
 const MobileNav = () => {
   const items =useSelector((state)=>state.cart);
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <>
